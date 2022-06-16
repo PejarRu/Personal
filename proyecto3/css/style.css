@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}
+nav, footer{
+    box-sizing: border-box;
+    padding: 5px;
+    color: white;
+}
+main{
+    margin: 60px 10px;
+}
+h2{
+    padding: 10px;
+}
+.card-text{
+    color: black;
+    text-decoration: none;
+}
